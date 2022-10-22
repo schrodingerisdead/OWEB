@@ -1,3 +1,3 @@
 # OWEB
-Fundementals of web development(course)
+Fundementals of web development - homework
 OWEB Homeworks
