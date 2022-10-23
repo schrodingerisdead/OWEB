@@ -1,2 +1,2 @@
 # OWEB
-Fundementals of web development - homework
+Fundamentals of web development - homework
