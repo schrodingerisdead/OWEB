@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+              #content {
+                 position: relative;
+                 }
+                #content img {
+                 position: absolute;
+                 top: 0px;
+                right: 0px;
+                 }
+                    
+        </style>
+        <meta charsert = "utf-8">
+        <title>Menu</title>
+        <link rel="stylesheet" href="MenuStyle.css">
+        <link href="http://fonts.cdnfonts.com/css/bulb" rel="stylesheet">
+        <link href="http://fonts.googleapis.com/css?family=FONTNAME" rel="stylesheet" type="text/css" />
+                
+    </head>
+
+    <body>
+        <div class="background_image">
+            <h1>Mimi's Lunch Special</h1>
+            <div id="content">
+                <figure class="logo-gif-figure"></figure>
+                <img src="../Homework2/img/KIRBY.gif" alt="logo">
+            </div>
+            <p><span class="highlight1">Monday through Friday<br>11am-3pm<br>$9.95 plus tax<br></span></p>
+            <p><span class="highlight2">Includes sandwiches, snacks and drinks.</span></p>
+            <form>
+                <fieldset class="Information">
+                    <legend>Order Information</legend>
+                    <div>
+                        <label for="name"><strong>Name:</strong><br></label>
+                        <input type="text" id="name"><br>
+                        <input type="radio" id="here" name="where" value="Here">
+                        <label for="here">Here</label><br>
+                        <input type="radio" id="togo" name="where" value="To Go">
+                        <label for="togo">To Go</label><br>
+                    </div>
+            </fieldset>
+            <fieldset class="Sandwiches">
+                <legend>Sandwiches</legend>
+                <div>
+                    </div>
+                        <div class="grid_images">
+                          <img class="tomat" src="../Homework2/img/tomato_mozzarella.jpg">
+                          <img class="chick" src="../Homework2/img/chicken_salad.jpg">
+                          <img class="ging"  src="../Homework2/img/carrot-ginger-hummus.jpg">
+                          <img class="dadoo" src="../Homework2/img/dado_wrap.jpg">
+                          <img class="redpep"src="../Homework2/img/red_pepper_hummus.jpg">
+                          <img class="turk"  src="../Homework2/img/roasted_turkey.jpg">
+                          <img class="greeks" src="../Homework2/img/greek_salad_wrap.jpg">
+                          <img class="eggo"   src="../Homework2/img/egg salad.jpg">
+                          <img class="totos"  src="../Homework2/img/toto-wrap.jpg">  
+                    </div>
+                    <p><b>Monday</b><br>
+                        <input type="radio" id="tomatomozz" name="monday" value="Tomato Mozzarella">
+                        <label for="tomatomozz">Tomato Mozzarella</label><br>
+                        <input type="radio" id="chickensalad" name="monday" value="Chicken Salad">
+                        <label for="chickensalad">Chicken Salad</label>
+                    </p>
+                    <p><b>Tuesday</b><br>
+                        <input type="radio" id="greeks" name="tuesday" value="Greek Salad Wrap">
+                        <label for="greeks">Greek Salad Wrap</label><br>
+                        <input type="radio" id="toto" name="tuesday" value="Toto Wrap">
+                        <label for="toto">Toto Wrap</label>
+                    </p>
+                    <p><b>Wednesday</b><br>
+                        <input type="radio" id="rph" name="wednesday" value="Red Pepper Hummus">
+                        <label for="rph">Red Pepper Hummus</label><br>
+                        <input type="radio" id="roasted" name="wednesday" value="Roasted Turkey">
+                        <label for="roasted">Roasted Turkey</label>
+                    </p>
+                    <p><b>Thursday</b><br>
+                        <input type="radio" id="carrot" name="thursday" value="Carrot-Ginger Hummus Wrap">
+                        <label for="carrot">Carrot-Ginger Hummus Wrap</label><br>
+                        <input type="radio" id="egg" name="thursday" value="Egg Salad">
+                        <label for="egg">Egg Salad</label>
+                    </p>
+                    <p><b>Friday</b><br>
+                        <input type="radio" id="dado" name="friday" value="Dado Wrap">
+                        <label for="dado">Dado Wrap</label><br>
+                        <input type="radio" id="tuna" name="friday" value="Tuna Salad">
+                        <label for="tuna">Tuna Salad</label>
+                    </p>
+                    <hr>
+                    <input type="radio" id="gluten" name="anyday" value="Gluten Free Bread">
+                    <label for="gluten">Gluten Free Bread (75¢ extra)</label>
+                </div>
+            </fieldset>
+            <fieldset class="Snacks">
+                <legend>Snack</legend>
+                <div>
+                    <div class="imagess">
+                        <img class="choco-cake" src="../Homework2/img/chocolate_cake.jpg">
+                        <img class="kitkatice" src="../Homework2/img/ice cream.jpg">
+                         <img class="bananaa" src="../Homework2/img/banana.jpg">
+
+                    </div>
+                    <p><b>Snacks</b><br>
+                        <input type="radio" id="chocolate cake" name="snack" value="Chocolate Cake">
+                        <label for="chocolate cake">Chocolate Cake</label><br>
+                        <input type="radio" id="KitKatIce" name="snack" value="KitKatIceCream">
+                        <label for="KitKatIce">KitKat Ice Cream</label><br>
+                        <input type="radio" id="banana" name="snack" value="Banana">
+                        <label for="banana">Banana</label>
+                    </p>
+                </div>
+            </fieldset>
+            <fieldset class="Drinks">
+                <legend>Drinks</legend>
+                <div>
+                    <div class="dropdown">
+                        <P>
+                             <label><b>Drinks:</b>
+                                <select name="drink">
+                                    <option selected>Water</option>
+                                    <option>Coffee</option>
+                                    <option>Iced Coffee</option>
+                                    <option>Organic Peppermint</option>
+                                    <option>Hot Sencha Green Tea</option>
+                                    <option>Iced Sencha Green Tea</option>
+                                    <option>Hot Keemun Black Tea</option>
+                                    <option>Iced Keemun Black Tea</option>
+                                    <option>Orange Juice</option>
+                                    <option>Fanta</option>
+                                    <option>Peach Ice Tea</option>
+                                </select>
+                                <hr>
+                                    <input type="radio" id="large" name="drink" value="Large Sized Drink">
+                                        <label for="large">Large Drink(50¢ extra)</label>
+                                            <img class="animated-gif" src="../Homework2/img/kirby_eatin.gif">
+                                        </label> 
+                                    </p>
+                    </div>
+                    <p>
+                        <input type="button" class="button" value="Place Order">
+                    </p>
+                    
+                </div>
+            </fieldset>
+        </form>
+        </div>
+    </body>
+    <footer>
+        <p>Thank you for choosing Mimi's</p>
+    </footer>
+</html>

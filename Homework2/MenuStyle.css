@@ -1,0 +1,175 @@
+
+h1{
+    text-align: center;
+    color:hotpink;
+    -webkit-text-stroke-color: black;
+    font-family: 'Bulb', sans-serif;
+    text-shadow: -4px 4px 8px blueviolet;                          
+}
+
+footer {
+    font-family: 'Bulb', sans-serif;
+    position: relative;
+    font-size:x-large;
+    text-align: center;
+    color:hotpink;
+    -webkit-text-stroke: black;
+    text-shadow: -4px 4px 8px black;
+    text-transform: uppercase;
+
+}
+body{
+    font-size: 22px;
+    color: black;
+    font-family:cursive;
+}
+
+.background_image{
+    background-image: url(../Homework2/img/another_potential_background1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.logo-gif-figure{
+    width: 20px;
+    height:min-content;
+    position: relative;
+    top: 0;
+    right: 0;
+    max-width:  40vw;
+}
+.highlight1{
+    background-color: pink;
+}
+
+.highlight2{
+    background-color: khaki;
+}
+fieldset{
+    border: 3px solid; 
+    border-radius:20px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 2px 2px #333535;
+}
+.Information {
+    border-color: darkmagenta;
+    background-color:aquamarine;
+}
+
+.Sandwiches {
+    border-color: brown;
+    background-color:antiquewhite;
+}
+.grid_images{
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 200px 100px 50px;
+    position: relative;
+    float: right;
+    max-width:  40vw;
+}
+.grid_images img {
+    display: block;
+    align-items: flex-end;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.grid_images img:nth-child(2){
+    grid-column: auto / span 2;
+}
+.grid_images img:nth-child(3){
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+.Snacks {
+    border-color: darkgreen;
+    background-color: honeydew;
+}
+.imagess {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 20px 20px 50px;
+    position: relative;
+    float: right;
+    max-width:  40vw;
+}
+
+.choco-cake {
+    width: 100px;
+    height: max-content;
+    position: relative;
+}
+.kitkatice {
+    display: block;
+    float: right;
+    width: 100px;
+    height: fit-content;
+}
+.bananaa {
+    display: block;
+    float: right;
+    position: relative;
+    width: 100px;
+    height:fit-content;
+}
+.Drinks {
+    border-color: darkgoldenrod;
+    background-color: lightskyblue;
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+    background-color: aquamarine;
+    color:palevioletred;
+    font-size: large;
+}
+.animated-gif{
+    object-position: center bottom;
+    width: 120px;
+    height:min-content;
+
+}
+.button {
+    display: inline-block;
+    background-color:cadetblue;
+    border-radius: 20px;
+    border: 4px double #cccccc;
+    color: #010000;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    position: relative;
+  }
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  .button:hover {
+    background-color: greenyellow;
+  }
+  .button:hover span {
+    padding-right: 25px;
+  }
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
