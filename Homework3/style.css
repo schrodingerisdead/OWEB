@@ -1,0 +1,131 @@
+body{
+    background-image: url(../Homework3/img/fields-game-background-landscape-yellow-orange-colors-tileable-horizontally-agricultural-land-ground-grass-big-blue-50038340.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color:steelblue;
+    -webkit-text-stroke-color: indianred;
+    font-family: "Permanent Marker", cursive;
+    text-shadow: -4px 4px 8px grey;
+}
+p{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 200;
+    font-size: 40px;
+    color:mediumvioletred;
+    margin: 0;
+    position: absolute;
+    top:20%;
+    left:70%;
+
+}
+.cell{
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+}
+
+#cellContainer{
+    display: grid;
+    grid-template-columns: repeat(10,auto);
+    width: 225px;
+    margin: 50px;
+    align-self: center;
+}
+#startpoint{
+    background-color: dimgray;
+}
+#endpoint{
+    background-color: chartreuse;
+}
+.time{
+    font-family: "Roboto Mono", monospace;
+    font-weight: 300;
+    font-size: 48px;
+    margin: 0;
+    position: absolute;
+    top:10%;
+    left:80%;
+}
+
+#player1{
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    top:30%;
+    left:70%;
+}
+
+#player2{
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    top: 30%;
+    left: 85%
+
+}
+
+.button{
+    display: inline-block;
+    background-color: darkseagreen;
+    border-radius: 20px;
+    border: 4px double plum;
+    color: dimgrey;
+    font-size: 14px;
+    padding: 10px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0;
+    position: absolute;
+    top: 10%;
+    left: 70%;
+}
+.button span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span::after{
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button :hover{
+    background-color: darkgreen;
+}
+
+.button:hover span{
+    padding-right: 25px;
+}
+
+.button:hover span::after{
+    opacity: 1;
+    right: 0;
+}
+
+.console{
+    display: inline-block;
+    background-color:thistle;
+    margin: 0;
+    top: 50%;
+    left:80%;
+}
+.status{
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+    background-color: darkorange;
+    color: crimson;
+    font-size: 12px;
+
+}
