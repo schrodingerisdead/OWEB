@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier New; 
+}
+
+.logo{
+    background-color: #424242;
+}
+
+body {
+    margin: 0;
+    width: 100%;
+    background-color: #000000;
+    min-height: 100vh ;
+}
+/* Header Navbar */
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 80px;
+    background: #111010;
+    box-shadow: 0 5px 15px #333333;
+
+}
+
+#navbar {
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbar li {
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+
+#navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #50b450;
+    transition: 0.3s ease;
+}
+
+#navbar li a:hover {
+    color: #F62E70;
+}
+
+#navbar li a.active {
+    color: #F98EAA;
+}
+
+#navbar li a.active::after {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: #5a5858;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+
+.photo{
+    position: absolute;
+    margin: 0%;
+    top: 20%;
+    right: 10%;
+}
+
+#pic{
+    width: 220px;
+    height: 250px;
+    border-radius: 60%;
+
+}
+
+.favs{
+    position: absolute;
+    margin: 0 auto;
+    top: 50%;
+    left: 10%;
+}
+.movies {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 0 auto;
+    top: 55%;
+    left: 10%;
+}
+.fav_movies{
+    color: green;
+    font-weight: bolder;
+    position: absolute;
+    margin: 0 auto;
+    top: 60%;
+    left: 15%;
+}
+.games{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin: 0 auto;
+    top: 65%;
+    left: 10%;
+}
+.fav_games{
+    color: green;
+    font-weight: bolder;
+    position: absolute;
+    margin: 0 auto;
+    top: 72%;
+    left: 15%;
+}
+.music {
+    position: absolute;
+    margin: 0;
+    top: 80%;
+    left: 10%;
+}
+.fav_music{
+    color: green;
+    font-weight: bolder;
+    position: absolute;
+    margin: 0 auto;
+    top: 82%;
+    left: 15%;
+}
+.books {
+    position: absolute;
+    margin: 0;
+    top: 90%;
+    left: 10%;
+}
+.fav_books{
+    color: green;
+    font-weight: bolder;
+    position: absolute;
+    margin: 0 auto;
+    top: 92%;
+    left: 15%;
+}
+.text{
+    color: limegreen;
+    font-size: larger;
+    font-weight: bolder;
+    position: absolute;
+    margin: 0 auto;
+    top: 52%;
+    left: 15%;
+}
+.hero {
+    color: aliceblue;
+    margin:0 auto;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+
+    grid-area: content;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+footer {
+    position: absolute;
+    margin: 0%;
+    top:100%;
+    left:0;
+    width: 100%;
+    background:#100c08;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+footer .social_icon , footer .menu{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    flex-wrap: wrap;
+}
+footer .social_icon li, footer .menu li{
+    list-style: none;
+}
+footer .social_icon li a {
+    font-size: 2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    transition: 0.5s;
+
+
+}
+footer .social_icon li a:hover {
+    transform: translateY(-10px);
+}
+footer .menu li a {
+    font-size: 1.2em;
+    color: white;
+    margin: 0 10px;
+    display: inline-block;
+    text-decoration: none;
+
+}
+footer .menu li a:hover{
+    opacity: 1;
+    color: #F98EAA;
+}
+footer p{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
