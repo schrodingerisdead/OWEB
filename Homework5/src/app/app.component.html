@@ -1,0 +1,23 @@
+<div class="top-menu">
+
+    <img class="logo"
+         src="https://angular-academy.s3.amazonaws.com/main-logo/main-page-logo-small-hat.png">
+
+</div>
+
+
+<div class="courses">
+
+    <div class="course-card">
+
+        <app-course-card                           
+        *ngFor = "let kurs of kursevi;index as i; first as prv"
+        (cuci)="onAppViewed()" 
+        (novo)="onClick($event)"
+        [crs] = "kurs"
+        [indeks]="i+1"
+        [class.is-first]="prv"
+        ></app-course-card>
+        
+</div>
+
