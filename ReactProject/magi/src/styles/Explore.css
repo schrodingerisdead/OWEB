@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .section-title{
+    margin-left: 15%;
+  }
+  .header-info{
+    color: aliceblue;
+  }
+  .main-container {
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    flex-direction: column;
+  }
+
+  card-header{
+    color: rgb(163, 54, 54);
+  }
