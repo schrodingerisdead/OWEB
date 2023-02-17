@@ -28,13 +28,13 @@
     position: relative;
     height: 100%;
     padding: 2rem 1.75rem;
-    background-color: var(--light-navy);
+    background-color:  #112240;
     border-radius: 16px;
   }
   
   .projects-card:hover {
     transform: translateY(-7px);
-    background-color: var(--lightest-navy);
+    background-color: #0a5525;
   }
   
   .card-header {

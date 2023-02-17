@@ -4,7 +4,7 @@ import FolderOpenRoundedIcon from "@material-ui/icons/FolderOpenRounded";
 import FadeInSection from "./FadeInSection";
 import nomansland from "../assets/img/nomansland.png" 
 import truth from "../assets/img/truth.png"
-import portfolio from "../assets/img/portfolio.png"
+import talltales from "../assets/img/talltales.png";
 
 
 
@@ -40,12 +40,12 @@ class Projects extends React.Component {
         techStack: "JAVASCRIPT (THREE.JS)",
         image: [truth]
       },
-      Portfolio: {
-        title: "portfolio.js",
+      "Tall Tales": {
+        title: "tall tales",
         desc:
-          "A small JS library that helps with clear and succinct data presentation.",
-        techStack: "NODE.JS (EXPRESS.JS)",
-        image: [portfolio]
+          "A multi-player story-telling web game for 3-5 players. Its usage of sockets to allow for concurrent gameplay, connecting friends across the internet.",
+        techStack: "NODE.JS (SOCKET.IO), REACT.JS, MONGODB",
+        image: [talltales]
       }
     };
     const projects = {
